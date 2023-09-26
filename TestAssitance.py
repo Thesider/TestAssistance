@@ -4,7 +4,7 @@ import google.generativeai as palm
 import pyttsx3
 import yaml
 # Read the API keys from a YAML file
-with open('C:/Users/BAO KHANG/Desktop/Test/hello/keys.yaml', 'r') as f:
+with open('keys.yaml', 'r') as f:
     api_keys = yaml.safe_load(f)
 
 # Set your AssemblyAI API key
